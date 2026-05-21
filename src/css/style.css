@@ -55,5 +55,17 @@ time {
 .card:hover .card-img-top {
   transform: scale(1.1);
 }
+.video-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55) 85%);
+  color: white;
+}
+.video-overlay .badge {
+  opacity: 0.95;
+}
+.date {
+  position: absolute;
+  bottom: 10px;
+  right: 7px;
+}
 
 
